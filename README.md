@@ -1,10 +1,5 @@
-[![Build Status](https://travis-ci.org/Seedstars/django-react-redux-base.svg?branch=master)](https://travis-ci.org/Seedstars/django-react-redux-base)
 
-# Django React/Redux Base Project
-
-This repository includes a boilerplate project used for all Seedstars Labs applications. It uses Django as backend and React as frontend.
-
-We build on the shoulders of giants with the following technologies:
+# Texel
 
 **Frontend**
 
@@ -83,20 +78,6 @@ You have two ways of running this project: Using the Dockers scripts or running 
 **Compile and run project**
 
 There are commands you need to compile javascript and run project. Ideally `yarn run dev` should be run in another console because it blocks it.
-
-* `$ yarn `
-* `$ yarn run dev`  # will run webpack with watch and compile code as it changes
-
-* `$ virtualenv -p /usr/bin/python3 virtualenv`
-* `$ source virtualenv/bin/activate`
-* `$ pip install -r py-requirements/dev.txt`
-
-* `$ cd src`
-* `$ python manage.py migrate`
-* `$ python manage.py loaddata fixtures.json`
-* `$ python manage.py runserver`
-
-Then open your browser the page: http://localhost:8000/ If all goes ok you should see a React single page app. 
 
 
 ### Running DOCKER
